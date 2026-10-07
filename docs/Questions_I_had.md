@@ -1,0 +1,2 @@
+# What happens if multiple transactions start at the same time? how does database handles that?
+Ans: Database grants the lock to only one trasaction at a time. So multiple transaction could start at same time but they could not aquire the same resource at the same time and database ensures this.
